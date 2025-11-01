@@ -1,0 +1,9 @@
+{
+	"name": "dftejazureproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9fb55bea-c675-4259-a77c-e226def11542",
+		"tenantId": "264f001b-e6f0-4eb1-9ce2-37c1cf712e58"
+	}
+}
