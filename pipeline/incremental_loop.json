@@ -120,7 +120,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@item().table",
+											"value": "@{item().table}",
 											"type": "Expression"
 										},
 										"file": {
@@ -349,7 +349,7 @@
 					"method": "POST",
 					"url": "https://prod-28.northcentralus.logic.azure.com:443/workflows/f1cd7642ca574cbf821cbf7174fd9737/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=6qflvaaa99nxP-ioM54zJvHzNknMMadN9JUKPd2NWWo",
 					"body": {
-						"value": "{\n    \"pipeline_name\" : \"@{pipeline().Pipeline}',\n    \"pipeline_runid\" : \"@{pipeline().RunId}\"\n}",
+						"value": "{\n    \"pipeline_name\" : \"@{pipeline().Pipeline}\",\n    \"pipeline_runid\" : \"@{pipeline().RunId}\"\n}",
 						"type": "Expression"
 					}
 				}
