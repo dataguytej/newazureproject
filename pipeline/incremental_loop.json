@@ -324,8 +324,7 @@
 						"activity": "looping",
 						"dependencyConditions": [
 							"Failed",
-							"Succeeded",
-							"Completed"
+							"Succeeded"
 						]
 					}
 				],
